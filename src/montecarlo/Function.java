@@ -64,10 +64,10 @@ public class Function {
             } 
              float expexteddailydemaand = 0;
 
-              for (int i = 0; i < 6; i++) {
+             for (int i = 0; i < 6; i++) {
                 expexteddailydemaand+=(Float.parseFloat(arr[i][0])*Float.parseFloat(arr[i][2]));
-            } 
-            
+            }
+              
               float total= ave/sum_ave;
               
               float temp[]={total,expexteddailydemaand};
